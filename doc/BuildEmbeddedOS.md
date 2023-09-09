@@ -51,7 +51,7 @@
    ```
 
 ## To Do
-- If you run runqemu, qemu-system-x86_64 is executed with the following options.
+- If you run runqemu, qemu-system-x86_64 is executed with the following options. I would like to change some network parameters to match environment.
   ```sh
   /home/clpuser/work/GitHub/poky/build/tmp/work/x86_64-linux/qemu-helper-native/1.0/recipe-sysroot-native/usr/bin/qemu-system-x86_64 \
   -device virtio-net-pci,netdev=net0,mac=52:54:00:12:34:02 \
